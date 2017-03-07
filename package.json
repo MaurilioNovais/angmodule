@@ -1,0 +1,26 @@
+{
+  "name": "angular-scaffold",
+  "version": "1.0.0",
+  "description": "Criar estrutura de módulos padrão Angular 1.x",
+  "main": "./lib/index.js",
+  "bin": {
+    "angmodule": "bin/scaffold-module.js"
+  },
+  "preferGlobal": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaurilioNovais/angular-scaffold.git"
+  },
+  "dependencies":{
+    "commander":"*"
+  },
+  "author": "Maurílio Novais",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaurilioNovais/angular-scaffold/issues"
+  },
+  "homepage": "https://github.com/MaurilioNovais/angular-scaffold#readme"
+}
